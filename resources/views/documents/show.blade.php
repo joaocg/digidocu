@@ -67,13 +67,13 @@
                                 <p>@{{file_type.name}}</p>
                             </div>
                             <div class="form-group">
-                                <label>Uploaded By:</label>
+                                <label>Enviado por:</label>
                                 <p>
                                     @{{created_by.name}}
                                 </p>
                             </div>
                             <div class="form-group">
-                                <label>Uploaded On:</label>
+                                <label>Enviado em:</label>
                                 <p>@{{formatDate created_at}}</p>
                             </div>
                             @{{#each custom_fields}}
