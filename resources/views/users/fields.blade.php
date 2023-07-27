@@ -204,6 +204,6 @@
 @endcan
 <!-- Submit Field -->
 <div class="form-group">
-    {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
-    <a href="{!! route('users.index') !!}" class="btn btn-default">Cancel</a>
+    {!! Form::submit(__('Save'), ['class' => 'btn btn-primary']) !!}
+    <a href="{!! route('users.index') !!}" class="btn btn-default">__('Cancel')</a>
 </div>
