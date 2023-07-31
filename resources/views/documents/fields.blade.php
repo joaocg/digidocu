@@ -50,7 +50,7 @@
 
 <!-- Submit Field -->
 <div class="form-group col-sm-12">
-    {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
+    {!! Form::submit(__('Save'), ['class' => 'btn btn-primary']) !!}
     {!! Form::submit('Save & Upload', ['class' => 'btn btn-primary','name'=>'savnup']) !!}
-    <a href="{!! route('documents.index') !!}" class="btn btn-default">Cancel</a>
+    <a href="{!! route('documents.index') !!}" class="btn btn-default">__('Cancel')</a>
 </div>
